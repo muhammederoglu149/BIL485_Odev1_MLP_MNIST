@@ -31,7 +31,7 @@ Dropout eklediğim model, eğitim doğruluğu daha düşük olmasına rağmen en
 
 ![El yazısıyla yazılan öğrenci numarasının tahminleri](handwriting_predictions.png)
 
-**Gerçek numara:** `24120205012` — **Tahmin:** `24120205012` — **Başarı:** 11/11
+Gerçek numara: `24120205012` — Tahmin: `24120205012` — Başarı: 11/11
 
 Bu çalışmada en çok dikkatimi çeken şey, fotoğrafı modele vermeden önce hazırlamanın sonucu ne kadar etkilediği oldu. MNIST ile telefon fotoğrafı arasında fark olduğu için rakamları temizlemek ve hizalamak önemliydi. Model bu fotoğraftaki bütün rakamları doğru bildi; ancak tek bir fotoğraftaki başarı, her el yazısında aynı sonucu alacağım anlamına gelmiyor. Görseldeki `%100.0` güven skorları da kesin doğruluk garantisi değil.
 
